@@ -1,0 +1,17 @@
+{
+  "name": "advicent",
+  "version": "1.0.0",
+  "description": "API - get education cost",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Irene",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fast-csv": "^2.4.1",
+    "mongoose": "^5.4.16",
+    "validator": "^10.11.0"
+  }
+}
