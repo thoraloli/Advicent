@@ -9,8 +9,6 @@ var db = require('./db');
 var express = require("express");
 var app = express();
 
-
-//link the cost controller to the route /users. Now, the / route within the cost controller will get mapped to /costs
 var CostController = require(APP_CONTROLLER_PATH + 'college-cost-controller');
 app.use('/v1/costs', CostController);
 
